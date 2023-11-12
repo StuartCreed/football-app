@@ -2,10 +2,15 @@
 
 import {useEffect, useState} from "react";
 
-export default function Box() {
+type Props = {
+    sayHello: Function;
+};
+
+export default function Box({sayHello}: Props) {
     const [customer, setCustomer] = useState('Stuart Creed')
     useEffect(() => {
         console.log('mounted')
+        sayHello()
     }, [customer]);
     return (
         <>
