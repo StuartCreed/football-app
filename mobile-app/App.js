@@ -27,7 +27,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   input: {
-    width: 400,
     height: 40,
   }
 });
