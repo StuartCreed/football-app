@@ -2,6 +2,6 @@
 
 export default function Page() {
     return (
-        <div>Login</div>
+        <div>Tickets</div>
     )
 }
